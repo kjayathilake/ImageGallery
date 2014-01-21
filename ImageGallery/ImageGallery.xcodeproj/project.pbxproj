@@ -19,6 +19,7 @@
 		D8FFEE36188EDB6300608521 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FFEE1E188EDB6100608521 /* UIKit.framework */; };
 		D8FFEE3E188EDB6300608521 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8FFEE3C188EDB6300608521 /* InfoPlist.strings */; };
 		D8FFEE40188EDB6300608521 /* ImageGalleryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FFEE3F188EDB6300608521 /* ImageGalleryTests.m */; };
+		D8FFEE4C188EDE5000608521 /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FFEE4B188EDE5000608521 /* AlbumViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		D8FFEE3B188EDB6300608521 /* ImageGalleryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageGalleryTests-Info.plist"; sourceTree = "<group>"; };
 		D8FFEE3D188EDB6300608521 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8FFEE3F188EDB6300608521 /* ImageGalleryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageGalleryTests.m; sourceTree = "<group>"; };
+		D8FFEE4A188EDE5000608521 /* AlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
+		D8FFEE4B188EDE5000608521 /* AlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,7 @@
 		D8FFEE20188EDB6100608521 /* ImageGallery */ = {
 			isa = PBXGroup;
 			children = (
+				D8FFEE49188EDC1900608521 /* Controllers */,
 				D8FFEE29188EDB6100608521 /* AppDelegate.h */,
 				D8FFEE2A188EDB6100608521 /* AppDelegate.m */,
 				D8FFEE2C188EDB6200608521 /* Images.xcassets */,
@@ -142,6 +146,15 @@
 				D8FFEE3C188EDB6300608521 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8FFEE49188EDC1900608521 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D8FFEE4A188EDE5000608521 /* AlbumViewController.h */,
+				D8FFEE4B188EDE5000608521 /* AlbumViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +254,7 @@
 			files = (
 				D8FFEE2B188EDB6100608521 /* AppDelegate.m in Sources */,
 				D8FFEE27188EDB6100608521 /* main.m in Sources */,
+				D8FFEE4C188EDE5000608521 /* AlbumViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "AlbumViewController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +15,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
+    AlbumViewController *albums = [[AlbumViewController alloc]initWithCollectionViewLayout:layout];
+    UINavigationController *navBar = [[UINavigationController alloc]initWithRootViewController:albums];
+    self.window.rootViewController = navBar;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
