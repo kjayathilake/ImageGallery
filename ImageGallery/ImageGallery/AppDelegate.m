@@ -15,8 +15,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
-    AlbumViewController *albums = [[AlbumViewController alloc]initWithCollectionViewLayout:layout];
+    AlbumViewController *albums = [[AlbumViewController alloc]initWithStyle:UITableViewStyleGrouped];
     UINavigationController *navBar = [[UINavigationController alloc]initWithRootViewController:albums];
     self.window.rootViewController = navBar;
     self.window.backgroundColor = [UIColor whiteColor];

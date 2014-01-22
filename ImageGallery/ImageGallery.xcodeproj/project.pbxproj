@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8CD6C0A18901169006BC482 /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CD6C0918901169006BC482 /* AlbumViewController.m */; };
 		D8FFEE1B188EDB6100608521 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FFEE1A188EDB6100608521 /* Foundation.framework */; };
 		D8FFEE1D188EDB6100608521 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FFEE1C188EDB6100608521 /* CoreGraphics.framework */; };
 		D8FFEE1F188EDB6100608521 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FFEE1E188EDB6100608521 /* UIKit.framework */; };
@@ -19,7 +20,6 @@
 		D8FFEE36188EDB6300608521 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FFEE1E188EDB6100608521 /* UIKit.framework */; };
 		D8FFEE3E188EDB6300608521 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8FFEE3C188EDB6300608521 /* InfoPlist.strings */; };
 		D8FFEE40188EDB6300608521 /* ImageGalleryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FFEE3F188EDB6300608521 /* ImageGalleryTests.m */; };
-		D8FFEE4C188EDE5000608521 /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FFEE4B188EDE5000608521 /* AlbumViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D8CD6C0818901169006BC482 /* AlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
+		D8CD6C0918901169006BC482 /* AlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
 		D8FFEE17188EDB6100608521 /* ImageGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FFEE1A188EDB6100608521 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8FFEE1C188EDB6100608521 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -49,8 +51,6 @@
 		D8FFEE3B188EDB6300608521 /* ImageGalleryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageGalleryTests-Info.plist"; sourceTree = "<group>"; };
 		D8FFEE3D188EDB6300608521 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8FFEE3F188EDB6300608521 /* ImageGalleryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageGalleryTests.m; sourceTree = "<group>"; };
-		D8FFEE4A188EDE5000608521 /* AlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
-		D8FFEE4B188EDE5000608521 /* AlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,8 +151,8 @@
 		D8FFEE49188EDC1900608521 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D8FFEE4A188EDE5000608521 /* AlbumViewController.h */,
-				D8FFEE4B188EDE5000608521 /* AlbumViewController.m */,
+				D8CD6C0818901169006BC482 /* AlbumViewController.h */,
+				D8CD6C0918901169006BC482 /* AlbumViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -254,7 +254,7 @@
 			files = (
 				D8FFEE2B188EDB6100608521 /* AppDelegate.m in Sources */,
 				D8FFEE27188EDB6100608521 /* main.m in Sources */,
-				D8FFEE4C188EDE5000608521 /* AlbumViewController.m in Sources */,
+				D8CD6C0A18901169006BC482 /* AlbumViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +457,7 @@
 				D8FFEE45188EDB6300608521 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8FFEE46188EDB6300608521 /* Build configuration list for PBXNativeTarget "ImageGalleryTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +466,7 @@
 				D8FFEE48188EDB6300608521 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
