@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "AlbumViewController.h"
+#import "HomeViewController.h"
 
 @implementation AppDelegate
 
@@ -15,8 +15,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    AlbumViewController *albums = [[AlbumViewController alloc]initWithStyle:UITableViewStyleGrouped];
-    UINavigationController *navBar = [[UINavigationController alloc]initWithRootViewController:albums];
+    HomeViewController *home = [[HomeViewController alloc]initWithStyle:UITableViewStyleGrouped];
+    UINavigationController *navBar = [[UINavigationController alloc]initWithRootViewController:home];
     self.window.rootViewController = navBar;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

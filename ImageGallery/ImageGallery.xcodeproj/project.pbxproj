@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D8CD6C0A18901169006BC482 /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CD6C0918901169006BC482 /* AlbumViewController.m */; };
+		D8D4B566189187940008873B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D4B565189187930008873B /* HomeViewController.m */; };
 		D8FFEE1B188EDB6100608521 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FFEE1A188EDB6100608521 /* Foundation.framework */; };
 		D8FFEE1D188EDB6100608521 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FFEE1C188EDB6100608521 /* CoreGraphics.framework */; };
 		D8FFEE1F188EDB6100608521 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FFEE1E188EDB6100608521 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* Begin PBXFileReference section */
 		D8CD6C0818901169006BC482 /* AlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
 		D8CD6C0918901169006BC482 /* AlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
+		D8D4B564189187930008873B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D8D4B565189187930008873B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		D8FFEE17188EDB6100608521 /* ImageGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FFEE1A188EDB6100608521 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8FFEE1C188EDB6100608521 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -153,6 +156,8 @@
 			children = (
 				D8CD6C0818901169006BC482 /* AlbumViewController.h */,
 				D8CD6C0918901169006BC482 /* AlbumViewController.m */,
+				D8D4B564189187930008873B /* HomeViewController.h */,
+				D8D4B565189187930008873B /* HomeViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 				D8FFEE2B188EDB6100608521 /* AppDelegate.m in Sources */,
 				D8FFEE27188EDB6100608521 /* main.m in Sources */,
 				D8CD6C0A18901169006BC482 /* AlbumViewController.m in Sources */,
+				D8D4B566189187940008873B /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
